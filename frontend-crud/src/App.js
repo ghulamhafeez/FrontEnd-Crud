@@ -1,8 +1,12 @@
-
+import {Form} from "./components/Form"
 
 export const App =()=> {
   return (
-   <h2>Hello FrontEnd</h2>
+    <div>
+      
+   <h2>Todo</h2>
+   <Form />
+   </div>
   );
 }
 
